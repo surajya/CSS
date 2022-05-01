@@ -1,0 +1,56 @@
+/* ID */
+/*
+#heading{
+    color:green;
+    background-color: black;
+}
+#subheading{
+    color: aquamarine;
+    background-color: brown;
+}*/
+
+/* Class Selector */
+/*.Green{
+    color: green;
+    background-color: darkblue;
+}
+.Red{
+    color: red;
+    background-color: pink;
+}
+.Gray{
+    color: gray;
+    background-color: darksalmon;
+}*/
+
+/*DIV SPAN 
+div{
+    color:lawngreen;
+}
+span{
+    text-transform: uppercase;
+}*/
+
+/* @INHERITANCE 
+body{
+    font-family: monospace;
+    line-height: 1.5em;
+}
+div{
+    color: yellowgreen;
+    border: 3px solid black;
+}
+h2{
+    color: blue;
+}*/
+
+/* Last Rule And Specificity * Universal Selector */
+p {
+    color: blue;
+}
+p{
+    color: red;
+}
+.Red{
+    color: green;
+}

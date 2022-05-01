@@ -1,0 +1,93 @@
+/*  Basic Salectors  
+*{
+    color: red;
+}
+
+#heading{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: blue;
+}
+
+.heading{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: green;
+}
+
+p{
+    letter-spacing: 20px;
+}  */
+
+
+/*Decendant and Child Combinations= 
+.header h1{
+   color: green;
+}
+
+.header>h1
+{
+    color: yellow;
+}
+div h1{
+   color: red;
+
+}
+
+div >h1{
+    color: blue;
+}   */
+
+/*  ::first-line  ::first-letter 
+p::first-line{
+    font-weight: bold;
+}
+
+p::first-letter{
+    font-size: 3rem;
+}   */
+
+/*  :hover 
+p:hover{
+    color: red;
+}
+.header:hover{
+    background: blue;
+    color: aliceblue;
+}
+a:hover{
+    text-decoration: none;
+}*/
+
+/* :link :visited :hover :active 
+a:link {
+    color:aqua;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    color: blue;
+}
+a:active{
+    color: green;
+}    */
+
+/* :root root element of the document html element
+General style
+CSS variable 
+*/
+:root{
+    /*background: red;*/
+    font-size: 155%;
+}
+/*1rem==16px*/
+h1{
+    font-size: 3rem;
+}
+.absolute{
+    font-size: 24px;
+}
+.responsive{
+    font-size: 2rem;
+}

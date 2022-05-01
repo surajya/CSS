@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Niconne&family=Poppins:ital,wght@1,100;1,200&family=Roboto:wght@900&display=swap');
+/*1 FONT-SIZE font family */
+/*body {
+  font-family: "Courier New", Courier, monospace;
+}
+h1 {
+  font-family: Verdana;
+}*/
+
+/*Google Font */
+/*text Indent*/
+/*body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  text-align: center;
+
+}
+.main {
+    color: red;
+  font-family: 'Yesteryear', cursive;
+  text-align: center;
+}
+.subheading{
+  text-align: left;
+}
+.one{
+  text-indent: 50px;
+}
+.two{
+  text-align: right;
+}*/
+
+/*property of the text
+line-height
+letter-spacing
+word-spacing
+text-transform
+text-decoration
+*/
+a{
+  font-size: 40px;
+  text-decoration: none;
+}
+body{
+  text-transform: uppercase;
+}
+h1{
+  text-transform: lowercase;
+  text-decoration: line-through;
+}
+.one{
+  line-height: 2em;
+}
+.two{
+  letter-spacing: 5px;
+  text-decoration: overline;
+}
+.three{
+  word-spacing: 20px;
+  text-decoration: underline;
+}
+

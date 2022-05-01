@@ -1,0 +1,122 @@
+/* LAST RULE ORDER*/
+/* BACKGROUND-SIZE,
+BackGround position,
+Background -Attackment,
+Background-gradient */
+/*  
+*{
+    margin:0;
+    padding:0;
+    box-sizing: 0;
+}
+div{
+    min-height: 400px;
+    color: green;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.img1{
+    background: url('image/img2.jpg');
+    /*background-repeat: round;
+    background-size:cover;
+    background-position: center;
+     background-attachment: fixed;
+}
+.img2{
+    border: 3px solid red;
+    background: url('./image/img3.jpg');
+   /*  background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-repeat: repeat-y;
+    background-repeat: repeat-x;
+    background-repeat: space;
+    background-repeat: round;  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-position:left;
+    background-position:right;
+    background-position: 20% 50%;
+    background-attachment: fixed;
+
+
+}
+.img3{
+    background: url('image/img4.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+     background-attachment: fixed;
+}  */
+
+/*Background  GRADIENT,
+Image ShortCut Combined  
+body{
+    display:contents;
+}
+div{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    margin: 4px;
+}
+.one{
+    background: linear-gradient(red,gold);
+}
+.two{
+    background: linear-gradient(to top,red,gold,blue,yellow);
+}
+.three{
+    background: linear-gradient(315deg,red,green);
+
+}
+.four{
+    background: linear-gradient(to top right,red,green);
+
+}
+.five{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.9));
+
+}
+.six{
+    background: linear-gradient(to left,rgba(0,0,0,0.3),rgba(0,0,0,0.9));
+
+}*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 60px;
+    color:gold;
+}
+
+.banner{
+    background: url(image/img4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.header{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9)),
+    url(image/img3.jpg) center/cover fixed no-repeat;
+}
+.colorzilla{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a90329+0,8f0222+4,240299+19,240299+19,240299+19,240299+19,d202a5+36,668272+61,668272+82,08039b+99,6d0019+100 */
+background: rgb(169,3,41); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(169,3,41,1) 0%, rgba(143,2,34,1) 4%, rgba(36,2,153,1) 19%, rgba(36,2,153,1) 19%, rgba(36,2,153,1) 19%, rgba(36,2,153,1) 19%, rgba(210,2,165,1) 36%, rgba(102,130,114,1) 61%, rgba(102,130,114,1) 82%, rgba(8,3,155,1) 99%, rgba(109,0,25,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(169,3,41,1) 0%,rgba(143,2,34,1) 4%,rgba(36,2,153,1) 19%,rgba(36,2,153,1) 19%,rgba(36,2,153,1) 19%,rgba(36,2,153,1) 19%,rgba(210,2,165,1) 36%,rgba(102,130,114,1) 61%,rgba(102,130,114,1) 82%,rgba(8,3,155,1) 99%,rgba(109,0,25,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(169,3,41,1) 0%,rgba(143,2,34,1) 4%,rgba(36,2,153,1) 19%,rgba(36,2,153,1) 19%,rgba(36,2,153,1) 19%,rgba(36,2,153,1) 19%,rgba(210,2,165,1) 36%,rgba(102,130,114,1) 61%,rgba(102,130,114,1) 82%,rgba(8,3,155,1) 99%,rgba(109,0,25,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=1 ); /* IE6-9 */
+
+}

@@ -1,0 +1,63 @@
+/*CssBoxModel
+padding
+border
+margin 
+h1{
+    background-color: red;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 50px;
+    margin: 50px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: gold;
+}
+p{
+    background-color: blue;
+    padding:40px 40px 50px 30px;
+    margin:60px;
+    border-style: double;
+    border: 10px solid yellow;
+}  */
+
+/* Border Radius
+Negative Margine  
+h1{
+    border:13px solid black;
+    border-radius: 20px;
+}
+
+p{
+    border: 13px solid gold;
+    border-radius: 50%;
+    border-top: -100px;
+}  */
+
+/* Outline   Offset */
+.button{
+    margin: 3rem;
+}
+
+a{
+    background: #689f3f;
+    text-decoration: none;
+    padding: 1.2rem,1.5rem;
+    color: #222;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 0 20px;
+
+}
+#one{
+    border: .2rem solid #222;
+
+}
+#two{
+    outline-width: 0.2rem;
+    outline-style: solid;
+    outline-color: #222;
+    outline:0.2rem solid #222;
+    outline-offset: 10px;
+    outline-offset: -1px;
+}

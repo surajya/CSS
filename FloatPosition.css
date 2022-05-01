@@ -1,0 +1,82 @@
+/* Select banner 
+.banner{
+    border: 5px solid red;
+    padding: 10px;
+    overflow: hidden;
+}
+
+img{
+    float:left;
+}
+
+p{
+    clear:left;
+}
+.one{
+    float: right;
+    margin-left: 50px;
+}
+.two{
+    float: right;
+    height: 300px;
+}*/
+
+/*
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+div{
+    float: left;
+    height: 400px;
+    width: 33.3%;
+}
+.one{
+    background: red;
+}
+.two{
+    float: left;
+    background: blue;
+   
+}
+.three{
+    float: left;
+    background: green;
+    
+} */
+/*  Position Relative   */
+/* position fixed  */
+.button{
+    background: red;
+    font-size: 40px;
+    position: fixed;
+    color: blueviolet;
+    top: 0;
+    right: 0;
+}
+div{
+    border: 3px solid red;
+    background: yellow;
+    
+    position: relative;
+}
+
+.one{
+    background: blue;
+    position: relative;
+   
+}
+/* position ralative */
+.two{
+    background: red;
+}
+
+.special{
+    background: lightgreen;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+} 

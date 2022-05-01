@@ -1,0 +1,123 @@
+/* Default property of the Display
+Block: Always start a new line and takes full width
+Inline: Does not start and only take up as much as content space 
+.block{
+    background: blue;
+    color: white;
+    display: inline;
+}
+
+.inline{
+    background: red;
+    color: white;
+    display: block;
+}  */
+
+/* Horizontal Centraling  
+body{
+    text-align: center;
+}
+.block{
+    background: blue;
+    color: white;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inline{
+    background: red;
+    color: white;
+}
+div{
+    background: blue;
+    color: white;
+    padding: 20px;
+    margin:20px;
+} */
+
+/* Mobile Navbar  */
+/*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}*/
+
+/*
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul li{
+    list-style-type:none;
+}
+
+ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing:2px ;
+    background: #222;
+    color: #f15025;
+    display: block;
+    padding: 10px 10px;
+    margin: 10px;
+}
+*/
+
+/* Display Inline block 
+a{
+    font-size: 60px;
+    background: red;
+    margin:60px;
+    display: inline-block;
+} *//*
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box-1,.box-2,.box-3{
+    width: 200px;
+    height: 200px;
+    color: white;
+
+}
+.box-1{
+    background: red;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.box-2{
+    background: blue;
+}
+
+.box-3{
+    background: green;
+    padding: 20px;
+}*/
+
+/*Display:none
+opacity:0
+visibility:hidden  */
+div{
+    background: blue;
+    margin:10px;
+    color: white;
+}
+.none{
+    display: none;
+}
+.opacity{
+    opacity: 1;
+    color: rgba;
+}
+.opacity-5{
+    opacity: 0.5;
+}
+.opacity-0{
+    opacity: 0;
+}
+
+.visibility{
+    visibility:collapse;
+}
